@@ -1,4 +1,4 @@
 js-play
 =======
 
-Having some fun hackin js.
+Having some fun hackin' js.

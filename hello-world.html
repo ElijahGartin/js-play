@@ -1,0 +1,65 @@
+<html>
+<body>
+
+  <h1 id="demo">Hello World</h1>
+
+  <script type"text/javascript">
+    document.getElementById("demo").innerHTML="Afternoon!";
+  </script>
+
+
+  <script type"text/javascript">
+    document.write("<p>www.google.come</p>");
+  </script>
+
+
+  <script type"text/javascript">
+    function makeMoney()
+    {
+      document.getElementById("money").innerHTML+="$ ";
+    }
+  </script>
+
+  <p id="money">$ </p>
+
+  <button type="button" onclick="makeMoney()">Hustlin</button>
+
+  <hr>
+
+  <script type"text/javascript">
+    function changeLeftButtonLabel()
+    {
+      document.getElementById("leftButton").innerHTML="You got me! ";
+    }
+
+    function changeRightButtonLabel()
+    {
+      document.getElementById("rightButton").innerHTML="You got me! ";
+    }
+
+    function reloadPage()
+    {
+      location.reload(true);
+    }
+
+    function fuckUser()
+    {
+      while(true)
+      {
+        document.write("!meow!");
+      }
+    }
+  </script>
+
+  <button id="leftButton" type="button" onclick="changeRightButtonLabel()">Hey there righty!</button>
+  <button id="rightButton" type="button" onclick="changeLeftButtonLabel()">Hey there lefty!</button>
+
+  <button type="button" onclick="reloadPage()">Aw fuck! :(</button>
+
+
+  <hr>
+
+  <button type="button" onclick="fuckUser()">Free Candy!!1</button>
+
+  </body>
+</html>
